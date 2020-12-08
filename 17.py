@@ -103,8 +103,8 @@ trie = Trie()
 words = ["wait", "waiter", "shop", "shopper"]
 for word in words:
     trie.insert(word)
-
-# print(trie.search("wait"))
+print (trie)
+print(trie.search("wait"))
 # print(trie.search(""))
 # print(trie.search("waiters"))
 print(trie.search("w"))
@@ -115,3 +115,5 @@ print(trie.search("w"))
 # https://desolve.medium.com/%E5%BE%9Eleetcode%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-73-trie-2-827573a72653
 # https://towardsdatascience.com/implementing-a-trie-data-structure-in-python-in-less-than-100-lines-of-code-a877ea23c1a1
 # https://www.youtube.com/watch?v=myuSbEHFLBA
+
+
